@@ -709,7 +709,7 @@
                         <img class="viz-source" src="test2.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -734,7 +734,7 @@
                         <img class="viz-source" src="test1.jpg" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -756,7 +756,7 @@
                 <div class="gallery-grid"><div class="gallery-item" data-type="text" onclick="openModal(this)">
                 <button class="delete-btn" onclick="deleteElement(this, event)">🗑️</button>
                 
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Reflections...</p></div>
                     
@@ -773,7 +773,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -798,7 +798,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -828,7 +828,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -853,7 +853,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -875,7 +875,7 @@
                 <div class="gallery-grid"><div class="gallery-item" data-type="text" onclick="openModal(this)">
                 <button class="delete-btn" onclick="deleteElement(this, event)">🗑️</button>
                 
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Reflections...</p></div>
                     
@@ -892,7 +892,7 @@
                         <img class="viz-source" src="density_test.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Building Density Static</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>AI Generated image of a potential static project output of mapping building density</p></div>
                     
@@ -912,7 +912,7 @@
                         <img class="viz-source" src="denstity_interactive.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Building Density Interactive</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>AI Generated image of a potential interactive project output of mapping building density</p></div>
                     
@@ -932,7 +932,7 @@
                         <img class="viz-source" src="wildfire_interactive.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Wildfire Static</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>AI Generated image of a potential static project output of mapping wildfire burns</p></div>
                     
@@ -952,7 +952,7 @@
                         <img class="viz-source" src="wildfire_static.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Wildfire Interactive</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>AI Generated image of a potential interactive project output of mapping wildfire burns</p></div>
                     
@@ -977,7 +977,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -1007,7 +1007,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -1032,7 +1032,7 @@
                         <img class="viz-source" src="Bad Map.jpg" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Bad Visualization</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Level 1: Upon reading the map the goal is fairly obvious. </p><p><br></p><p>Level 2: The data used could be helpful, and considering it is from the census we can assume it is accurate.  However, the combinations of colors make it hard to interpret. </p><p><br></p><p>Level 3: Missing a scale bar, the shape and angles look accurate, but the map does not state what projection it is in. The color shading is most likely accurate, but ineffective. Even if color shading is accurate to the data, viewers can easily make incorrect assumptions about the map. Viewers are forced to read the map in terms of shading rather then the colors each variable represents. Counties with large high school graduation rates, but low income and college rates look white instead of pink. I suspect that the transparency is not scaled to the exact percentage of the variable. One positive is it has very little extra visuals. </p><p><br></p><p>Level 4: No performance issues as a static map. Cites data sources, but not the basemap.</p></div>
                     
@@ -1052,7 +1052,7 @@
                         <img class="viz-source" src="Thematic_HM_Walljasper_Chicagos Wily Coyotes.png" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)"><p>Good Visualization</p></h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Level 1: The map has very in depth descriptions of what it is displaying. Viewers can easily interpret the large range of the coyote, and how its movements are different at night vs the day. </p><p><br></p><p>Level 2:  It explains that each dot is a recorded location from a GPS tracker, they provide a time range, but it would have been interesting to somehow display a time range for each dot.</p><p><br></p><p>Level 3: Includes a scale bar, angles and shapes should be accurate because of how small an area it focuses on. Very little extra information except for the building footprints, but this tells us it is an urban environment. </p><p><br></p><p>Level 4: Static maps are easy to load, Credits all sources including basemaps. </p></div>
                     
@@ -1074,7 +1074,7 @@
                 <div class="gallery-grid"><div class="gallery-item" data-type="text" onclick="openModal(this)">
                 <button class="delete-btn" onclick="deleteElement(this, event)">🗑️</button>
                 
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Reflections...</p></div>
                     
@@ -1091,7 +1091,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -1116,7 +1116,7 @@
                         <img class="viz-source" src="https://via.placeholder.com/600x400" alt="Viz">
                         <label class="file-upload-overlay">Change Img <input type="file" hidden="" onchange="updateCardImage(this)"></label>
                    </div>
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>Description...</p></div>
                     
@@ -1538,7 +1538,7 @@
             const template = `<div class="gallery-item" data-type="${type}" onclick="openModal(this)">
                 <button class="delete-btn" onclick="deleteElement(this, event)">🗑️</button>
                 ${imagePart}
-                <div class="item-data" onclick="event.stopPropagation()">
+                <div class="item-data" onclick="if (isEditing) event.stopPropagation()">
                     <h3 class="editable-field item-title" onclick="openEditor(this)">Title</h3>
                     <div class="editable-field desc-text" onclick="openEditor(this)"><p>${type === 'text' ? 'Reflections...' : 'Description...'}</p></div>
                     ${type === 'standard' ? `
